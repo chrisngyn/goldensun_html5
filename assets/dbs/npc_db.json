@@ -1,0 +1,33 @@
+[
+    {
+        "key_name": "village_1",
+        "anchor_y": 0.8,
+        "initial_action": "idle",
+        "collision_body_bevel": 3,
+        "interaction_pattern": "cross",
+        "body_radius": 7.0,
+        "actions": {
+            "idle": {
+                "frame_rate": [[0.2,3,1,1,1]],
+                "directions": ["down", "up", "left", "right"],
+                "frames_count": 6,
+                "initial_direction": "down"
+            }
+        }
+    },{
+        "key_name": "briggs",
+        "anchor_y": 0.8,
+        "initial_action": "idle",
+        "collision_body_bevel": 3,
+        "interaction_pattern": "cross",
+        "body_radius": 7.0,
+        "actions": {
+            "idle": {
+                "frame_rate": [[0.2,5,0.3,1,1,1]],
+                "directions": ["down", "up", "left", "right", "up_left", "up_right", "down_left", "down_right"],
+                "frames_count": 6,
+                "initial_direction": "down"
+            }
+        }
+    }
+]
